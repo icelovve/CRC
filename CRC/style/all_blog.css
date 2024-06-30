@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-top: 3%;
+    margin-left: 11%;
+    font-size: 16px;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    margin: 0 5px;
+    color: black;
+}
+
+.breadcrumb a:hover{
+    text-decoration: underline;
+}
+
+.breadcrumb p {
+    margin: 0 5px;
+}
+
+.breadcrumb-item.active {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.button-content{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.button-content button{
+    background-color: #5c6bc0;
+    border: none;
+    border-radius: 30px;
+    margin-left: 15px;
+    padding: 10px 18px;
+}
+
+.button-content a{
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.button-content button:hover{
+    cursor: pointer;
+    background-color: #212121;
+}
+
+.button-content .highlight{
+    background-color: #212121;
+}
+
+.box{
+    padding: 0 80px 0 80px;
+}
+
+.box-content-1 {
+    display: flex;
+    border: 1px solid #ccc;
+    padding: 10px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-top: 5px; /* ลดระยะห่างด้านบนของกรอบ */
+    padding-bottom: 80PX;
+    margin-bottom: 80px;
+}
+
+
+.box-content-1 img{
+    width: 350px;
+    height: 506px;
+    float: left;
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+.text-content-1{
+    float: right;
+    margin-top: 12%;
+    margin-left: 5%;
+ }
+
+.text-content-1 h1{
+    font-size: 20px;
+}
+
+.text-content-1 p{
+    font-size: 16px;
+}
+
+.text-content-1 button{
+    color: black;
+    background-color: #bdbdbd;
+    font-size: 12px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5%;
+    margin-top: 5%;
+}
+
+.text-content-1 button:hover{
+    color: #ffffff;
+    background-color: #4db6ac;
+    cursor: pointer;
+}
+
+.box{
+    padding: 100px;
+}
+
+.boxs{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    border: 1px solid #ccc;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-top: 5px; /* ลดระยะห่างด้านบนของกรอบ */
+    padding-top: 80px;
+    padding-bottom: 80PX;
+}
+
+.boxs div{
+    margin-left: 60px;
+}
+
+.boxs h1{
+    font-size: 18px;
+}
+
+.boxs p{
+    font-size: 15px;
+}
+
+.boxs button{
+    color: black;
+    background-color: #bdbdbd;
+    font-size: 12px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5%;
+    margin-top: 5%;
+}
+
+.boxs button:hover{
+    color: #ffffff;
+    background-color: #4db6ac;
+    cursor: pointer;
+}
+
+.box-content-two p{
+    margin-bottom: 88px;
+}
+
+.box-content-three p{
+    margin-bottom: 64px;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+.img-1 {
+    animation: bounce 5s;
+}

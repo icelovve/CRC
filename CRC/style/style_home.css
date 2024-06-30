@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+.img-2 {
+    display: block;
+    width: 100%;
+}
+
+.box-image-1 .img-1 {
+    position: absolute;
+    bottom: 22%;  
+    right: 14%; 
+    width: 20%;
+}
+
+/* animation */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+.img-1 {
+    animation: bounce 5s;
+}
+
+.who-we-are h1,
+.who-we-are p{
+    display: flex;
+    justify-content: center;
+}
+
+.who-we-are h1{
+    color: #4db6ac;
+    font-size: 48px;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.who-we-are p{
+    color: black;
+    font-size: 16px;
+    line-height: 1;
+    font-weight: 300;
+}
+
+.latest-research{
+    background-color: #e0e0e0;
+    padding: 8px;
+    margin-top: 8%;
+
+}
+
+.latest-research h1,
+.latest-research p {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.latest-research h1{
+    color: #4db6ac;
+    font-size: 48px;
+    margin-top: 5%;
+    margin-bottom: 0;
+}
+
+.latest-research p{
+    color: black;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 0; 
+}
+
+.box-research-1 h3,
+.box-research-2 h3,
+.box-research-3 h3{
+    color: #4db6ac;
+    font-size: 18px;
+}
+
+.box-research-1 p,
+.box-research-2 p,
+.box-research-3 p{
+    color: black;
+    font-size: 14px;
+    font-weight: 300px;
+}
+
+.box-research-1,
+.box-research-2,
+.box-research-3 {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;           
+    text-align: center; 
+    animation: bounce 5s;
+
+}
+
+.box-latest-research {
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+}
+
+.box-latest-research div {
+    flex: 1 0 30%; 
+    max-width: 30%;
+    margin-bottom: 20px; 
+}
+
+.box-latest-research .box-research-1{
+    margin-top: 8px;
+}
+
+.box-latest-research .box-research-2{
+    margin-top: 20px;
+}
+
+.latest-research button{
+    color: black;
+    background-color: #bdbdbd;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5%;
+    margin-top: 5%;
+}
+
+.latest-research button:hover{
+    color: #ffffff;
+    background-color: #4db6ac;
+    cursor: pointer;
+}
+
+.latest-research .button-all{
+    margin-left: 633px;
+    margin-bottom: 3%;
+}
+
+.box-input {
+    color: #bdbdbd;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    margin: 5% auto;
+}
+
+.box-input form {
+    display: grid;
+    gap: 10px;
+}
+
+.box-input label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+    display: block;
+}
+
+.box-input input[type="text"],
+.box-input input[type="email"],
+.box-input input[type="tel"],
+.box-input input[type="submit"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.box-input input[type="text"]:focus,
+.box-input input[type="email"]:focus,
+.box-input input[type="tel"]:focus {
+    border-color: #4db6ac;
+}
+
+.box-input input[type="submit"] {
+    background-color: #4db6ac;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    justify-self: start; /* Align button to the left */
+}
+
+.box-input input[type="submit"]:hover {
+    background-color: #4db6ac;
+}
+
+.box-input button{
+    color: aliceblue;
+    background-color: #bdbdbd;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5%;
+    margin-top: 5%;
+    margin-left: 120px;
+    cursor: pointer;
+}
+
+.box-input button:hover{
+    color: #ffffff;
+    background-color: #4db6ac;
+}
+
+
+
+
+
+
